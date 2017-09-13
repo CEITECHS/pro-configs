@@ -1,7 +1,7 @@
 <html>
 <body>
 <h3>Hi ${model.firstName} ${model.lastName} , welcome to DProz (Dependable professional Zone) the professionals Platform, 
-	where helping and meeting customer is made Easy!</h3>
+	<br/> where helping and meeting customer is made Easy!</h3>
 
 <div>
     Your email address is <a href="mailto:${model.profile.emailAddress}">${model.profile.emailAddress}</a>. <br/>
