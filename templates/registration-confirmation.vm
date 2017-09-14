@@ -6,7 +6,7 @@
 <div>
     Your email address is <a href="mailto:${model.proProfile.emailAddress}">${model.proProfile.emailAddress}</a>. <br/>
     Please follow this  <a href ="${model.verificationPathParam}">link</a> to verify your account or copy paste the following on any web browser
-    <span>${model.verificationPathParam}</span>
+    <span>${model.proProfile.verificationPathParam}</span>
 </div>
 
 </body>
